@@ -15,7 +15,7 @@ function run(){
     img.src = 'graphics/student/student.svg'
 
     img.addEventListener('click', () => {
-        score -= 10
+        score += 10
         sound.play()
         scoreElement.textContent = score
         img.src = 'graphics/student/student_hit.svg'
